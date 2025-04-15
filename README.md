@@ -1,8 +1,8 @@
-TBCPAY.GE
+AuthPay
 
 Overview
 
-TBCPAY.GE is a payment processing application built with .NET Core, designed to handle user authentication, multi-factor authentication (MFA) via SMS, and payment initiation using Stripe. 
+AuthPay is a payment processing application built with .NET Core, designed to handle user authentication, multi-factor authentication (MFA) via SMS, and payment initiation using Stripe. 
 
 
 The application supports Google OAuth for user login and provides a secure API for managing transactions.
