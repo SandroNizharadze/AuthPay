@@ -30,7 +30,7 @@ Stripe payment:
 
 
 
-Multi-Factor Authentication (MFA): SMS-based MFA using Twilio for secure login. (currently not available, needs to fix)
+Multi-Factor Authentication (MFA): SMS-based MFA using Twilio for secure login.
 Payment Processing: Initiate payments using Stripe.
 Database: PostgreSQL for storing user and transaction data.
 Dockerized Setup: Run the application using Docker and Docker Compose.
@@ -47,23 +47,4 @@ PostgreSQL
 Stripe Account
 Google Cloud Console
 Twilio account with active number
-
-
-
-
-Current issue:
-
-
-
-Twilio API Block Due to Exposed Secrets
-
-
-<img width="744" alt="image" src="https://github.com/user-attachments/assets/eb78ac08-6fe4-430c-b628-9458dfa39cd7" />
-
-
-
-It's credentials were accidentally exposed in the Git repository, leading Twilio to block my API for security reasons (I didn't knew about such consequence).
-Testing authentication features (e.g., /api/identity/login, /api/identity/mfa/verify) that rely on Twilio for SMS-based MFA is currently unavailable.
-
-I will fix it soon.
 
